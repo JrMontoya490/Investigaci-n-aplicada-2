@@ -1,0 +1,160 @@
+{
+    "tecnico_ingenieria_computacion": [
+    {
+        "nombre": "Álgebra Vectorial y Matrices",
+        "codigo": "ALG501",
+        "uv": 4,
+        "prerrequisitos": ["Bachillerato"]
+    },
+    {
+        "nombre": "Antropología Filosófica",
+        "codigo": "ANF231",
+        "uv": 3,
+        "prerrequisitos": ["Bachillerato"]
+    },
+    {
+        "nombre": "Lenguajes de Marcado y Estilo Web",
+        "codigo": "LME404",
+        "uv": 4,
+        "prerrequisitos": ["Bachillerato"]
+    },
+    {
+        "nombre": "Programación de Algoritmos",
+        "codigo": "PAL404",
+        "uv": 4,
+        "prerrequisitos": ["Bachillerato"]
+    },
+    {
+        "nombre": "Redes de Comunicación",
+        "codigo": "REC404",
+        "uv": 4,
+        "prerrequisitos": ["Bachillerato"]
+    },
+    {
+        "nombre": "Análisis y Diseño de Sistemas y Base de Dato",
+        "codigo": "ASB404",
+        "uv": 4,
+        "prerrequisitos": ["Materia: Programación de Algoritmos", "Codigo: PAL404"]
+    },
+    {
+        "nombre": "Desarrollo de Aplic. Web con Soft. Interpret. en el Cliente",
+        "codigo": "DAW404",
+        "uv": 4,
+        "prerrequisitos": ["MAteria: Lenguajes de Marcado y Estilo Web", "Codigo: LME404"]
+    },
+    {
+        "nombre": "Desarrollo de Aplicaciones con Software Propietario",
+        "codigo": "DSP404",
+        "uv": 4,
+        "prerrequisitos": ["Materia: Programación de Algoritmos", "Codigo: PAL404"]
+    },
+    {
+        "nombre": "Programación Orientada a Objetos",
+        "codigo": "POO404",
+        "uv": 4,
+        "prerrequisitos": ["Materia: Programación de Algoritmos", "Codigo: PAL404"]
+    },
+    {
+        "nombre": "Pensamiento Social Cristiano",
+        "codigo": "PSC231",
+        "uv": 3,
+        "prerrequisitos": ["Bachillerato"]
+    }
+    ],
+    "ingenieria_ciencia_computacion": [
+        {
+            "nombre": "Cálculo Diferencial",
+            "codigo": "CAD501",
+            "uv": 4,
+            "prerrequisitos": ["Bachillerato"]
+        },
+        {
+            "nombre": "Comunicación Oral y Escrita",
+            "codigo": "COE201",
+            "uv": 3,
+            "prerrequisitos": ["Bachillerato"]
+        },
+        {
+            "nombre": "Programación de Algoritmos",
+            "codigo": "404",
+            "uv": 4,
+            "prerrequisitos": ["Bachillerato"]
+        },
+        {
+            "nombre": "Química General",
+            "codigo": "QUG501",
+            "uv": 4,
+            "prerrequisitos": ["Bachillerato"]
+        },
+        {
+            "nombre": "Álgebra Vectorial y Matrices",
+            "codigo": "AVM501",
+            "uv": 3,
+            "prerrequisitos": ["Bachillerato"]
+        },
+        {
+            "nombre": "Cálculo Integral",
+            "codigo": "CAI501",
+            "uv": 4,
+            "prerrequisitos": ["Materia: Cálculo Diferencial","Codigo: CAD501"]
+        },
+        {
+            "nombre": "Cinemática y Dinámica de Partículas",
+            "codigo": "CDP501",
+            "uv": 4,
+            "prerrequisitos": ["Materia: Cálculo Diferencial","Codigo: CAD501"]
+        },
+        {
+            "nombre": "Modelamiento y Diseño de Base de Datos",
+            "codigo": "MDB104",
+            "uv": 4,
+            "prerrequisitos": ["Materia: Programación de Algoritmos", "Codigo: PAL404"]
+        },
+        {
+            "nombre": "Programación Orientada a Objetos",
+            "codigo": "POO104",
+            "uv": 4,
+            "prerrequisitos": ["Materia: Programación de Algoritmos", "Codigo: PAL404"]
+        },
+        {
+            "nombre": "Pensamiento Social Cristiano",
+            "codigo": "PSC231",
+            "uv": 3,
+            "prerrequisitos": ["Bachillerato"]
+        }
+    ],
+    "ciclos":{
+        "tecnico_ingenieria_computacion": {
+            "ciclo1": [
+                "Álgebra Vectorial y Matrices",
+                "Antropología Filosófica",
+                "Lenguajes de Marcado y Estilo Web",
+                "Programación de Algoritmos",
+                "Redes de Comunicación"
+            ],
+            "ciclo2": [
+                "Análisis y Diseño de Sistemas y Base de Dato",
+                "Desarrollo de Aplic. Web con Soft. Interpret. en el Cliente",
+                "Desarrollo de Aplicaciones con Software Propietario",
+                "Programación Orientada a Objetos",
+                "Pensamiento Social Cristiano"
+            ]
+        },
+        "ingenieria_ciencia_computacion": {
+            "ciclo1": [
+                "Cálculo Diferencial",
+                "Comunicación Oral y Escrita",
+                "Programación de Algoritmos",
+                "Química General",
+                "Pensamiento Social Cristiano"
+            ],
+            "ciclo2": [
+                "Álgebra Vectorial y Matrices",
+                "Cálculo Integral",
+                "Cinemática y Dinámica de Partículas",
+                "Modelamiento y Diseño de Base de Datos",
+                "Programación Orientada a Objetos"
+            ]
+        }
+    }
+}
